@@ -1,0 +1,1 @@
+import React from 'react';import Nav from "./nav/Nav";import Profile from "./nav/profile/Profile";const Main = () => {    return (        <div>            < Nav />            <div className="main-content">                <Profile />        </div>        </div>    )};export default Main;
