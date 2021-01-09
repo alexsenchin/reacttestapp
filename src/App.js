@@ -1,19 +1,17 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import Header from "./components/basic/Header/Header";
-import Main from "./components/basic/Main/Main";
-import Footer from "./components/basic/Footer/Footer";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Profile from "./components/Profile";
 
 const App = () => {
-  return (
-    <div className="App">
-      <div className="grid-container">
-        <Header />
-        <Main />
-        <Footer />
-      </div>
-    </div>
-  );
+    return (
+        <div className="app-wrapper">
+            <Header/>
+            <Nav/>
+            <Profile/>
+        </div>
+    );
 }
 
 export default App;

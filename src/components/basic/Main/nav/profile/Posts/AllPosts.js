@@ -1,1 +1,0 @@
-import React from 'react'const AllPosts = () => {    return (        <div className="all-posts">all posts</div>    )}export default AllPosts;

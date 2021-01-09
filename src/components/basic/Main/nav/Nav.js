@@ -1,1 +1,0 @@
-import React from 'react'const Nav = () => {    return (        <div>        <nav className="nav">            <div>Profile</div>            <div>Messeges</div>            <div>News</div>            <div>Music</div>        </nav>        </div>    )}export default Nav;
