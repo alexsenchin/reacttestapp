@@ -1,0 +1,1 @@
+import React from 'react';import style from './Avatar.module.css';const Avatar = () => {    return (        <div className={style.avatarWrapper}>            <img className={style.avatar} src="https://avatarfiles.alphacoders.com/586/thumb-58682.jpg" />        </div>    )}export default Avatar;

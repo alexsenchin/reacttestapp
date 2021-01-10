@@ -1,1 +1,1 @@
-import React, {Component} from 'react';const Header = () => {    return (        <header className="header">Brand</header>    )}export default Header;
+import React, {Component} from 'react';import style from './Header.module.css'const Header = () => {    return (        <header className={style.header}>Brand</header>    )}export default Header;

@@ -1,0 +1,1 @@
+import React from 'react'const NewPosts = () => {    return (        <div>            <input type="text-area"></input>            <button>Send</button>        </div>    )}export default NewPosts;
