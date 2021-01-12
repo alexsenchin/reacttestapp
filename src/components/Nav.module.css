@@ -1,1 +1,1 @@
-.nav {    grid-area: nav;}
+.nav {    grid-area: nav;    padding: 30px;}.navItem {    text-decoration: none;}.nav a.activeLink {    color: red;}.nav a:hover {    color: aqua;}

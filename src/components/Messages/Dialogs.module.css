@@ -1,0 +1,1 @@
+.mainWrap {    display: grid;    grid-template-columns: 2fr 10fr;    padding-top: 30px;}.dialogs {}.dialogItem{    text-decoration: none;}.messageItem{}.messages {}
